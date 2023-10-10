@@ -18,6 +18,7 @@ public class SchoolController {
     public SchoolController(SchoolRepository schoolRepository) {
         this.schoolRepository = schoolRepository;
     }
+
     @GetMapping("/schools")
     public String getAll(Model model) {
 
